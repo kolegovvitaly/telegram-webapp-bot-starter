@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--tg-theme-bg-color, #ffffff);
+  color: var(--tg-theme-text-color, #222222);
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color-scheme: var(--tg-color-scheme);
+}
+
+a {
+  color: var(--tg-theme-link-color, #2678b6);
+}
+
+button {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  margin: 15px 0;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--tg-theme-button-color, #50a8eb);
+  color: var(--tg-theme-button-text-color, #ffffff);
+  cursor: pointer;
+}
+
+.layout {
+  padding: 20px;
+  width: 100%;
+  max-width: 482px;
+}
+
+code {
+  width: 100%;
+}
